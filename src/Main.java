@@ -48,6 +48,19 @@ public class Main {
             }
 
         }
+        System.out.println();
+        System.out.println("Задача4");
+        for (int i = 0; i < chislo.length; i++) {
+            System.out.print(chislo[i]);
+            if (chislo[i]%2==1){
+chislo[i]++;
+            }
+            System.out.print(chislo[i]);
+            if (i!=chislo.length-1){
+                System.out.print(",");
+            }
+
+        }
 
             }
 
